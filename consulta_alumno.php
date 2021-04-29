@@ -48,6 +48,7 @@ if($query){
 		echo "<td>".$row['tel_alumno']."</td>";
 		echo "<td>".$row['correoe_alumno']."</td>";
 		echo "<td><a href=' edita_alumno.php?id=".$row['id_alumno']."'>Editar registro</td>";
+		echo "<td><a href=' edita_alumno.php?id=".$row['id_alumno']."'>Eliminar registro</td>";
 		echo "</tr>";
 	}
 
